@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Transfer Market</title>
+        <style>
+            input {
+                border-radius: 10px;
+                height : 25px;
+
+            }
+            .trippier, .kimmich, .camavinga, 
+            .pulisic, .jota , .son , .gavi , 
+            .odegaard {
+                height : 210px;
+                width : 315px;
+                margin-top :none;
+                margin-right : 2px;
+                vertical-align: top;
+                box-shadow: 5px 5px 5px grey;
+            }
+            .pulisicdiv, .kimmichdiv, .camavingadiv, 
+            .trippierdiv, .jotadiv , .gavidiv, .sondiv, 
+            .odegdiv {
+                width : 500px;
+                display: inline-block;
+                border-color: black;
+                vertical-align: top;
+            }
+            .title, .ending {
+                margin-top : 2px;
+                background-color: rgb(6, 6, 20);
+                color: rgb(239, 224, 224);
+                font-size: 40px;
+                font-family: Verdana;
+                font-weight: bold;
+                text-align: center;
+                box-shadow: 5px 5px 5px grey;
+            }
+            .tripname, .kimmname, .camaname, .puliname, .sonname, .jotaname , .gaviname, 
+            .odegname { 
+                margin-left : 5px;  
+                display: inline-block;
+                font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                  font-weight: bold;
+            }
+            .tripfee, .kimmfee, .camafee, .sonfee , .odegfee, .gavifee, .jotafee,
+            .pulifee{
+                margin-top :none;
+                background-color: lightblue;
+                border-style: solid;
+                border-color: black;
+                padding-left: 5px;
+                height: 25px;
+                box-shadow: 5px 5px 5px grey;
+                padding-right: 5px;
+                padding-top: 10px;
+                border-radius: 15px;
+                width: 130px;
+                border-width: 1px;
+                font-weight: 550;
+                color: rgb(7, 5, 56);
+                display: inline-block;
+                margin-right : 45px;
+            }
+            .tripbuy, .camabuy, .pulibuy, .jotabuy , .sonbuy , .gavibuy, .odegbuy, 
+            .kimmbuy{
+                background-color: rgb(68, 126, 149);
+                height : 30px;
+                margin-left : 75px;
+                border-radius: 15px;
+                display: inline-block;
+                width : 80px;
+                color: white;
+                font-family: sans-serif;
+                cursor: pointer;
+                box-shadow: 5px 5px 5px grey;
+            }
+            .tripbuy:hover, .kimmbuy:hover, .camabuy:hover, .pulibuy:hover, .odegbuy:hover, .sonbuy:hover, .gavibuy:hover, 
+            .jotabuy:hover{
+                background-color: white;
+                color : blue;
+            }
+            .engflag, .usaflag, .gerflag, .espflag , .norwflag, .korflag, .prtflag ,
+             .fraflag {
+                height: 70px;
+                width : 105px;
+            }
+            .newcflag, .rmaflag, .bayeflag, .livpflag, .arseflag , .barcflag, .spursflag,
+            .acmflag {
+                height :70px;
+                width : 105px;
+            }
+            .hordiv1, .hordiv3, .hordiv5, .hordiv7 , .hordiv9, .hordiv11, .hordiv13, .hordiv15{
+                display: inline-block;
+                vertical-align: top;
+            }
+            .hordiv2, .hordiv4, .hordiv6 , .hordiv8, .hordiv10 , .hordiv12, .hordiv14 , .hordiv16{
+                width: 70px;
+                display: inline-block;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div><p class="title"> FIFA Players Market</p>
+        <div style="
+        display: grid;
+        row-gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr;">
+        <div class="trippierdiv">
+            <div class="vertdiv1">
+                <div class="hordiv1">
+                    <img class="kimmich" src="pictures/trippier.jpg">
+                </div>
+                <div class="hordiv2">
+                    <div>
+                        <img class="engflag" src="pictures/england.png">
+                    </div>
+                    <div>
+                        <img class="newcflag" src="pictures/Newcastle.png">
+                    </div>
+                </div>
+            </div> 
+            <div class="vertdiv2">
+                <p class="tripname"> Kieran Trippier </p>
+                <button class="tripbuy"> BUY </button></p>            
+                <p class="tripfee"> Fee - 90,000,000 &#8364;</p>
+                <input type="searchbox" placeholder="Bid your &#8364"> 
+            </div>
+        </div>
+        <div class="kimmichdiv">
+            <div class="vertdiv3">
+                <div class="hordiv3">
+                    <img class="kimmich" src="pictures/kimmich.webp"> 
+                </div>
+                <div class="hordiv4">
+                    <div>
+                        <img class="gerflag" src="pictures/gerflag.webp">
+                    </div>
+                    <div>
+                        <img class="bayeflag" src="pictures/bayeflag.png">
+                    </div>
+                </div>
+            </div>
+            <div class="vertdiv4">
+                <p class="kimmname"> Joshua Kimmich</p>
+                <button class="kimmbuy"> BUY </button></p>
+                <p class="kimmfee"> Fee - 120,000,000 &#8364;</p>
+                <input type="searchbox" placeholder="Bid your &#8364"> 
+            </div>
+        </div>
+        <div class="camavingadiv">
+            <div class="vertdiv5">
+                <div class="hordiv5">
+                    <img class="camavinga" src="pictures/camavinga.webp">
+                </div>
+                <div class="hordiv6">
+                    <div>
+                        <img class="fraflag" src="pictures/fraflag.webp">
+                    </div>
+                    <div>
+                        <img class="rmaflag" src="pictures/rmaflag.webp"> 
+                    </div>
+                </div>
+            </div>
+            <div class="vertdiv6">
+                <p class="camaname">Eduardo Camavinga </p>
+                <button class="camabuy"> BUY </button></p>
+                <p class="camafee"> Fee - 140,000,000 &#8364;</p>
+                <input type="searchbox" placeholder="Bid your &#8364"> 
+            </div>
+        </div>
+        <div class="pulisicdiv">
+            <div class="vertdiv7">
+                <div class="hordiv7">
+                    <img class="pulisic" src= 'pictures/pulisic.png'>
+                </div>
+                <div class="hordiv8">
+                    <div>
+                        <img class="usaflag" src="pictures/usaflag.webp">
+                    </div>
+                    <div>
+                        <img class="acmflag" src="pictures/acmflag.png"> 
+                    </div>
+                </div>
+            </div>
+            <div class="vertdiv8">
+                <p class="puliname">Cristian Pulisic</p>
+                <button class="pulibuy"> BUY </button></p>
+                <p class="pulifee"> Fee - 110,000,000 &#8364;</p>
+                <input type="searchbox" placeholder="Bid your &#8364"> 
+            </div>
+        </div>
+        <div class = "jotadiv">
+            <div class="vertdiv9">
+                <div class="hordiv9">
+                    <img class="jota" src="pictures/jota.jpg"> 
+                </div>
+                <div class="hordiv10">
+                    <div>
+                        <img class="prtflag" src="pictures/portflag.webp">
+                    </div>
+                    <div>
+                        <img class="livpflag" src="pictures/livpflag.png">
+                    </div>
+                </div>
+            </div>
+            <div class="vertdiv10">
+                <p class="jotaname">Diogo Jota </p> 
+                <button class="jotabuy"> BUY </button></p> 
+                <p class="jotafee"> Fee - 65,000,000 &#8364;</p>
+                <input type="searchbox" placeholder="Bid your &#8364"> 
+            </div>
+        </div>
+        <div class="gavidiv">
+            <div class="vertdiv11">
+                <div class="hordiv11">
+                    <img class="gavi" src="pictures/gavi.webp">
+                </div>
+                <div class="hordiv12">
+                    <div>
+                        <img class="espflag" src="pictures/espflag.webp">
+                    </div>
+                    <div>
+                        <img class="barcflag" src="pictures/barcflag.png">
+                    </div>
+                </div>
+            </div>
+            <div class="vertdiv12">
+                <p class="gaviname">Gavi Hernandez </p>
+                <button class="gavibuy"> BUY </button></p>
+                <p class="gavifee"> Fee - 70,000,000 &#8364;</p>
+                <input type="searchbox" placeholder="Bid your &#8364"> 
+            </div>
+        </div>
+        <div class="sondiv">
+            <div class="vertdiv13">
+                <div class="hordiv13">
+                    <img class="son" src="pictures/Son.webp">
+                </div>
+                <div class="hordiv14">
+                    <div>
+                        <img class="korflag" src="pictures/korean-flag.jpg">
+                    </div>
+                    <div>
+                        <img class="spursflag" src="pictures/spursflag.png" >
+                    </div>
+                </div>
+            </div>
+            <div class="vertdiv14">
+                <p class="sonname">Heung Min Son</p>
+                <button class="sonbuy"> BUY </button></p>
+                <p class="sonfee"> Fee - 115,000,000 &#8364;</p>
+                <input type="searchbox" placeholder="Bid your &#8364"> 
+            </div>
+        </div>
+        <div class="odegdiv">
+            <div class="vertdiv15">
+                <div class="hordiv15">
+                    <img class="odegaard" src="pictures/Odeg.jpg">
+                </div>
+                <div class="hordiv16">
+                    <div>
+                        <img class="norwflag" src="pictures/norwflag.webp">
+                    </div>
+                    <div>
+                        <img class="arseflag" src="pictures/arseflag.webp">
+                    </div>
+                </div>
+            </div>
+            <div class="vertdiv16">
+                <p class="odegname">Martin Ødegaard</p>
+                <button class="odegbuy"> BUY </button></p> 
+                <p class="odegfee"> Fee - 130,000,000 &#8364;</p>
+                <input type="searchbox" placeholder="Bid your &#8364"> 
+            </div>
+        </div>
+        </div> <br>
+        <p class="ending"> Thanks for visiting </p>
+    </body>
+
+</html>
