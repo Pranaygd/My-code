@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+    <head>
+        <title> Netflix Clone</title>
+        <style>
+            .Netflixlogo {
+                width: 300px;
+                height: 300px;
+                border-radius:100px;
+                margin-left : 250px;
+                box-shadow: 10px 10px 10px grey;
+                margin-right: 100px;
+                margin-top: 20px;
+                vertical-align: bottom;
+            }
+
+            .netflixinfo {
+                height: 300px;
+                border-radius: 50px;
+                box-shadow: 10px 10px 10px grey;
+            }    
+            .intro {
+                color : rgb(217, 13, 13);
+                font-family: Cambria;
+                font-weight: bold;
+                background-color: rgb(14, 7, 7);
+                font-size: 30px;
+                text-align: center;
+                padding-bottom: none;
+            }
+            .searchbox{
+               margin-top : 50px;
+               margin-left: 650px;
+               height : 23px;
+               font-family: verdana;
+               font-weight: bold;
+               border-radius: 8px;
+               border-color: grey;
+               width : 190px;
+               margin-right: 20px;
+               vertical-align: bottom;
+            }
+            .searchbutton {
+                color: black;
+                background-color: rgb(244, 11, 11);
+                border: none;
+                cursor: pointer;
+                height : 25px;
+                font-family: verdana;
+                border-radius: 12px;
+                font-size: 20px;
+                box-shadow: 10px 10px 10px grey;
+                width: 120px;
+            }
+            .searchbutton:hover {
+                background-color: rgb(11, 4, 2);
+                color : white;
+            }
+            .searchbutton:active {
+                background-color: rgb(246, 245, 245);
+                color : rgb(241, 8, 8);
+            }
+        </style>
+    </head>
+    <body> 
+        <p class="intro"> Welcome to Netflix </p>
+        <img class= "Netflixlogo" src="pictures/Netflix-logo.webp"> 
+        <img class= "netflixinfo" src="pictures/netflix-more.jpg">
+        <input class="searchbox" type = "searchbar" placeholder="Search for a TV show/Movie"> 
+        <button class="searchbutton"> Search</button>
+    </body>
+</html>
